@@ -1,43 +1,43 @@
 const questions = [
     {
-        question: "The book was so ________ (CAUSA) that I couldn't stop reading it.",
+        question: "The book was so ________ (CAUSA) that I couldn't stop reading it..",
         options: ["interested", "interesting", "bored"],
         answer: "interesting"
     },
     {
-        question: "She felt very ________ (SENTIMIENTO) about the trip.",
+        question: "She felt very ________ (SENTIMIENTO) about the trip..",
         options: ["exciting", "excited", "tiring"],
         answer: "excited"
     },
     {
-        question: "The teacher's explanation was ________ (CAUSA), so everyone was confused.",
+        question: "The teacher's explanation was ________ (CAUSA), so everyone was confused..",
         options: ["confused", "confusing", "annoying"],
         answer: "confusing"
     },
     {
-        question: "I am ________ (SENTIMIENTO) because I didn't sleep well last night.",
+        question: "I am ________ (SENTIMIENTO) because I didn't sleep well last night..",
         options: ["tiring", "tired", "relaxing"],
         answer: "tired"
     },
     {
-        question: "His behavior is really ________ (CAUSA) to his classmates.",
+        question: "His behavior is really ________ (CAUSA) to his classmates..",
         options: ["annoyed", "annoying", "surprised"],
         answer: "annoying"
     },
     {
-        question: "When he lost his job, my friend was __________(SENTIMIENTO).",
+        question: "When he lost his job, my friend was __________(SENTIMIENTO)...",
         options: ["annoyed", "annoying", "distressed"],
         answer: "distressed"
     },    
     {
-        question: "London is a really ___________(CAUSA) city.",
-        options: ["surprised", "happy", "fascinating"],
-        answer: "annoying"
+        question: "London is a really ___________(CAUSA) city...",
+        options: ["surprised", "did", "fascinating"],
+        answer: "fascinating"
     },    
     {
-        question: "The students felt ___________(SENTIMIENTO) about not passing the exam.",
+        question: "The students felt ___________(SENTIMIENTO) about not passing the exam..",
         options: ["annoyed", "discouraged", "surprised"],
-        answer: "annoying"
+        answer: "discouraged"
     },    
     {
         question: "I’m very _________ (SENTIMIENTO) to have finally met you..",
@@ -45,7 +45,7 @@ const questions = [
         answer: "excited"
     },    
     {
-        question: "I feel too __________(SENTIMIENTO)  to go out tonight..",
+        question: "I feel too __________(SENTIMIENTO)  to go out tonight.",
         options: ["tired", "discouraged", "surprised"],
         answer: "tired"
     }
@@ -96,4 +96,5 @@ function checkAnswer(selectedOption, correctAnswer) {
 }
 
 // Inicia el juego
+
 loadQuestion();
