@@ -5,12 +5,12 @@ const questions = [
         answer: "interesting"
     },
     {
-        question: "She felt very ________ (SENTIMIENTO) about the trip..",
+        question: "She felt very ________ (SENTIMIENTO) about the trip to Microsoft..",
         options: ["exciting", "excited", "tiring"],
         answer: "excited"
     },
     {
-        question: "The teacher's explanation was ________ (CAUSA), so everyone was confused..",
+        question: "The senior's explanation was ________ (CAUSA), so everyone was confused..",
         options: ["confused", "confusing", "annoying"],
         answer: "confusing"
     },
@@ -36,16 +36,16 @@ const questions = [
     },    
     {
         question: "The students felt ___________(SENTIMIENTO) about not passing the exam..",
-        options: ["annoyed", "discouraged", "surprised"],
+        options: ["annoyyed", "discouraged", "fascinating"],
         answer: "discouraged"
     },    
     {
-        question: "I’m very _________ (SENTIMIENTO) to have finally met you..",
+        question: "I’m very _________ (SENTIMIENTO) to have initiated in this company..",
         options: ["surprised", "excited", "fascinating"],
         answer: "excited"
     },    
     {
-        question: "I feel too __________(SENTIMIENTO)  to go out tonight.",
+        question: "I feel too __________(SENTIMIENTO)  to program out tonight.",
         options: ["tired", "discouraged", "surprised"],
         answer: "tired"
     }
@@ -98,3 +98,4 @@ function checkAnswer(selectedOption, correctAnswer) {
 // Inicia el juego
 
 loadQuestion();
+
